@@ -4730,7 +4730,6 @@ class SpritemapDialog(QtWidgets.QDialog):
                 self.table.setItem(row, 2, QtWidgets.QTableWidgetItem(str_id))
 
 class EmbedExclusionDialog(QtWidgets.QDialog):
-    # todo: attach this to the level
     def __init__(self, parent=None):
         super().__init__(parent)
         
